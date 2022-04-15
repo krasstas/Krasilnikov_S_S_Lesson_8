@@ -1,0 +1,44 @@
+
+
+
+
+
+.notification__normal {
+    background-color: rgba(212,215,222, 1);
+    border-radius: 4px;
+}
+
+.notification__normal::before {
+    content: url(../images/Union_i.svg);
+    margin-right: 10px;
+}
+
+.notification__good {
+    background-color: rgba(233, 248, 235, 1);
+    border-radius: 4px;
+}
+
+.notification__good::before {
+    content: url(../images/union_checkbox.svg);
+    margin-right: 10px;
+}
+
+.notification__warning {
+    background-color: rgba(255, 248, 224, 1);
+    border-radius: 4px;
+}
+
+.notification__warning::before {
+    content: url(../images/union_warning.svg);
+    margin-right: 10px;
+}
+
+.notification__error {
+    background-color: rgba(253, 234, 228, 1);
+    border-radius: 4px;
+}
+
+.notification__error::before {
+    content: url(../images/union_error.svg);
+    margin-right: 10px;
+}

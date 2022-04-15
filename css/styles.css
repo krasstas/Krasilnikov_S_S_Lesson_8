@@ -1,0 +1,102 @@
+.body__section {
+    position: relative;
+    background-color: rgb(121, 121, 121);
+}
+
+.zero__border {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.section__modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 406px;
+    height: 301px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+    padding: 32px;
+}
+
+.Header__x {
+    width: 342 px;
+    height: 40px;
+}
+
+.section__modal__h1 {
+    font-family: Inter, Roboto, Arial, Helvetica, sans-serif;
+    font-style: bold;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    display: inline-block;
+    max-width: 286px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.close_window {
+    position: absolute;
+    top: 44px;
+    right: 44px;
+}
+
+.notification {
+    width: 342px;
+}
+
+.notification__p {
+    font-family: Inter, Roboto, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: rgba(44, 45, 46, 1);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.message {
+    font-family: Inter, Roboto, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    padding-bottom: 32px;
+    margin: 0px;
+}
+
+.btn {
+    display: inline-block;
+    box-sizing: border-box;
+    border: 0px;
+    padding: 0px;
+    border-radius: 4px;
+    text-align: center;
+    width: 83PX;
+    height: 40PX;
+    cursor: pointer;
+}
+
+.btn__blue {
+    background-color: rgba(62, 86, 170, 1);
+    color: rgba(255, 255, 255, 1);
+    margin-right: 12px;
+}
+
+.btn__grey {
+    background-color: rgba(240, 241, 243, 1);
+    color: rgba(44, 45, 46, 1);
+    margin-right: 81px;
+}
+
+.btn__transparent {
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(62, 86, 170, 1);
+    margin-right: 0px;
+}
