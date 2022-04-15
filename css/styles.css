@@ -49,6 +49,7 @@
 .notification {
     position: relative;
     width: 342px;
+    border-radius: 4px;
 }
 
 .notification__p {
@@ -58,9 +59,9 @@
     font-size: 14px;
     line-height: 22px;
     color: rgba(44, 45, 46, 1);
+    padding-left: 26px;
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-left: 10px;
 }
 
 .message {

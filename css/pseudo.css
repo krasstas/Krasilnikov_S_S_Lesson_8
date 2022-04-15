@@ -10,11 +10,12 @@
 
 .notification__normal::before {
     content: url(../images/Union_i.svg);
-    height: 16px;
     position: absolute;
+    width: 16px;
+    height: 16px;
     top: 50%;
-    transform: translateY(-50%);
-    margin-right: 10px;
+    left: 10px;
+    transform: translate(-25%, -50%);
 }
 
 .notification__good {
@@ -24,7 +25,12 @@
 
 .notification__good::before {
     content: url(../images/union_checkbox.svg);
-    margin-right: 10px;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 50%;
+    left: 10px;
+    transform: translate(-25%, -50%);
 }
 
 .notification__warning {
@@ -34,7 +40,12 @@
 
 .notification__warning::before {
     content: url(../images/union_warning.svg);
-    margin-right: 10px;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 50%;
+    left: 10px;
+    transform: translate(-25%, -50%);
 }
 
 .notification__error {
@@ -44,5 +55,10 @@
 
 .notification__error::before {
     content: url(../images/union_error.svg);
-    margin-right: 10px;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 50%;
+    left: 10px;
+    transform: translate(-25%, -50%);
 }
