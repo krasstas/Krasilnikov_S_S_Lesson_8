@@ -10,6 +10,10 @@
 
 .notification__normal::before {
     content: url(../images/Union_i.svg);
+    height: 16px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
     margin-right: 10px;
 }
 
